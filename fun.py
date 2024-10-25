@@ -10,8 +10,17 @@ def dog_years():
     The dog's age in dog's years is 73
     ```
     """
+age = float(input("dog age in human years:"))
+#calculations
+if age <= 2:
+    dog_age = age*10.5
+else:
+    dog_age = 21+(age-2)*4
+if age > 20:
+    print("only calculate dog years until 20 human years")
+else:
+    print(f"The dog's age in dog's years is{age*10.5}")
 
-    #enter your code here
 
 def fizzbuzz(num):
     """
@@ -24,8 +33,9 @@ def fizzbuzz(num):
     fizzbuzz(15) => "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz"
     """
 
-    #enter your code here
-
+def fizzbuzz(num):
+    for i in range(1, num+1):
+        if i ?????
     
 
 def word_lengths(sentence):
@@ -39,8 +49,9 @@ def word_lengths(sentence):
     Output: {'Aunty': 5, 'Yankho': 6, 'is': 2, 'amazing': 7}
     ```
     """
+   def word_lengths(sentence):
+     
     
-    #enter your code here
 
 def cube_sum(number):
     """
